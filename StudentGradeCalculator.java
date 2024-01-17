@@ -23,6 +23,7 @@ public class StudentGradeCalculator {
 
         float averagePercentage = (float) totalMarks / (numSubjects * 100) * 100;
 
+        //Calculations:
         char grade;
         if (averagePercentage >= 90) {
             grade = 'A';
@@ -36,6 +37,7 @@ public class StudentGradeCalculator {
             grade = 'F';
         }
 
+        //results:
         System.out.println("Total Marks: " + totalMarks);
         System.out.println("Average Percentage: " + averagePercentage + "%");
         System.out.println("Grade: " + grade);
